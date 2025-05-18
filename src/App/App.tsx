@@ -12,7 +12,7 @@ function App() {
   const [votes, setVotes] = useState<Votes>(initialVotes);
 
   const handleVote = (type: VoteType) => {
-    setVotes((prevVotes) => ({
+    setVotes((prevVotes: Votes) => ({
       ...prevVotes,
       [type]: prevVotes[type] + 1,
     }));
