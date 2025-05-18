@@ -3,9 +3,9 @@ import css from "./App.module.css";
 import CafeInfo from "../CafeInfo/CafeInfo";
 import VoteOptions from "../VoteOptions/VoteOptions";
 import Notification from "../Notification/Notifications";
-import "./App.module.css";
 import type { Votes, VoteType } from "../types/Votes";
 import VoteStats from "../VoteStats/VoteStats";
+import "./App.module.css";
 
 function App() {
   const initialVotes: Votes = { good: 0, neutral: 0, bad: 0 };
