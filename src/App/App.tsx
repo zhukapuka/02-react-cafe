@@ -3,7 +3,7 @@ import css from "./App.module.css";
 import CafeInfo from "../CafeInfo/CafeInfo";
 import VoteOptions from "../VoteOptions/VoteOptions";
 import Notification from "../Notification/Notifications";
-import type { Votes, VoteType } from "../types/Votes";
+import type { Votes, VoteType } from "../types/votes";
 import VoteStats from "../VoteStats/VoteStats";
 import "./App.module.css";
 
